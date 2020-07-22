@@ -1,0 +1,85 @@
+/* Float four columns side by side */
+.col {
+    float: left;
+    width: 100%;
+    padding: 0 8px;
+    margin: 8px 0;
+}
+
+.col-1 {
+    width: 8.33334%;
+}
+
+.col-2 {
+    width: 16.66666666667%;
+}
+
+.col-3 {
+    width: 25%;  
+}
+
+.col-4 {
+    width: 33.333333333333%; 
+}
+
+.col-5 {
+    width: 12.5%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 100%;
+}
+
+.col-8 {
+    width: 100%;
+}
+
+.col-9 {
+    width: 100%;
+}
+
+.col-10 {
+    width: 100%;
+}
+
+.col-11 {  
+    width: 100%;
+}
+
+.col-12 {
+    width: 100%;
+}
+  
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 900px) {
+    /* .col {
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+    } */
+}
+@media screen and (max-width: 600px) {
+    /* .col {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    } */
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}

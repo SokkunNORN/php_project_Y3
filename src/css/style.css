@@ -1,0 +1,133 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-shadow: border-box;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    left:0; right:0;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 5px rgba(83, 83, 83, 0.2);
+    background: #f1f1f1;
+    z-index: 10;
+    display: inline;
+}
+
+.header .logo {
+    width: 170px;
+    text-align: center;
+}
+
+.header .fa {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    padding: 16.5px 17px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px;
+}
+
+.header .fa:hover {
+    background: rgba(228, 227, 227, 0.5);
+}
+
+.left {
+    position: fixed;
+    width: 200px;
+    box-shadow: 1px 0px 7px #888888;
+    background: #263238;
+    z-index: 5;
+    top: 49px;
+    left: 0;
+    bottom: 40px;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.left ul {
+    margin: -15px 0;
+    padding: 0;
+}
+
+.left ul li {
+    margin: 5px 7px;
+    border-radius: 7px;
+}
+
+.left ul li a {
+    padding: 10px 14px;
+    color: #bdb8d7;
+    display: block;
+}
+
+.left ul li a .fa {
+    width: 25px;
+}
+
+.left ul li:hover {
+    background: #37474F;
+    transition: 1s;
+}
+
+.left ul li.active {
+    background: #37474F;
+}
+
+.left ul li.active a {
+    color: #fff;
+}
+
+.left ul li:hover a{
+    color: #fff;
+}
+
+.logout {
+    border-top: 1px solid rgba(104, 103, 103, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+.logout a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background: #243036;
+}
+
+.logout a:hover { 
+    background: #37474F;
+}
+
+.main {
+    position: absolute;
+    left:200px; top:49px; right:0; bottom:0;
+    padding: 30px;
+}
+
+.main .container {
+    height: 100%;
+    width: 100%;
+}
