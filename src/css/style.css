@@ -15,6 +15,7 @@ body {
     padding: 0;
 }
 
+/* header */
 .header {
     position: fixed;
     left:0; right:0;
@@ -51,6 +52,7 @@ body {
     background: rgba(228, 227, 227, 0.5);
 }
 
+/* left side menu */
 .left {
     position: fixed;
     width: 200px;
@@ -121,6 +123,7 @@ body {
     background: #37474F;
 }
 
+/* main */
 .main {
     position: absolute;
     left:200px; top:49px; right:0; bottom:0;
