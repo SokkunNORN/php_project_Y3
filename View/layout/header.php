@@ -11,7 +11,13 @@
     <link rel="stylesheet" href="src/css/grid.css">
     <link rel="stylesheet" href="src/css/table.css">
     <link rel="stylesheet" href="src/css/card.css">
-    <link rel="stylesheet" href="src/css/dashboard.css">
+    <?php 
+        if ($data['page'] === "dashboard/index") :
+    ?>
+        <link rel="stylesheet" href="src/css/dashboard.css">
+    <?php
+        endif;
+    ?>
 </head>
 <body>
 
