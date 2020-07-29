@@ -16,6 +16,13 @@
         })
     <?php
         endif;
+        if ($data['page'] === "customerList/index") :
+    ?>
+        $(document).ready(function() {
+            $('#customer_list').DataTable();
+        })
+    <?php
+        endif;
     ?>
 </script>
 
