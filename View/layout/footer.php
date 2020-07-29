@@ -23,6 +23,13 @@
         })
     <?php
         endif;
+        if ($data['page'] === "bookingList/index") :
+    ?>
+        $(document).ready(function() {
+            $('#booking_list').DataTable();
+        })
+    <?php
+        endif;
     ?>
 </script>
 
