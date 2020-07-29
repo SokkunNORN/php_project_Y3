@@ -26,7 +26,10 @@ function logout (&$data) {
     $data['page'] = 'auth/login';
 }
 
-function dashboard (&$data) {
+function dashboard (&$data) {   
+    $query = "SELECT * FROM car";
+    include "../Connection/connection.php";
+
     $data['page'] = 'dashboard/index';
 }
 
